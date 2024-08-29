@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="10" failed="5" skipped="0">
+<testng-results ignored="0" total="15" passed="11" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-29T10:27:34 BDT" name="Testng Cucumber Suite" finished-at="2024-08-29T10:32:44 BDT" duration-ms="309954">
+  <suite started-at="2024-08-29T20:34:54 BDT" name="Testng Cucumber Suite" finished-at="2024-08-29T20:38:18 BDT" duration-ms="203860">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-08-29T10:27:34 BDT" name="LoginTest" finished-at="2024-08-29T10:32:44 BDT" duration-ms="309954">
+    <test started-at="2024-08-29T20:34:54 BDT" name="LoginTest" finished-at="2024-08-29T20:38:18 BDT" duration-ms="203860">
       <class name="TestRunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:27:34 BDT" name="setUpClass" finished-at="2024-08-29T10:27:35 BDT" duration-ms="360" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:34:54 BDT" name="setUpClass" finished-at="2024-08-29T20:34:54 BDT" duration-ms="548" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1b66c0fb]]>
+                <![CDATA[org.testng.TestRunner@19d481b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:27:35 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:30:04 BDT" duration-ms="149639" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:34:54 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:35:21 BDT" duration-ms="26385" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:30:04 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:30:13 BDT" duration-ms="8485" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:35:21 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:35:31 BDT" duration-ms="10633" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:30:13 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:30:19 BDT" duration-ms="6051" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:35:31 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:35:40 BDT" duration-ms="8029" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:30:19 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:30:23 BDT" duration-ms="4371" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:35:40 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:35:47 BDT" duration-ms="7183" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:30:23 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:30:29 BDT" duration-ms="5786" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:35:47 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:35:55 BDT" duration-ms="7845" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:30:29 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:30:36 BDT" duration-ms="6909" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:35:55 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:36:05 BDT" duration-ms="10836" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:30:36 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:31:01 BDT" duration-ms="24980" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:36:05 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:36:15 BDT" duration-ms="9936" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,7 +133,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:31:01 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:31:12 BDT" duration-ms="10643" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:36:15 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:36:34 BDT" duration-ms="18520" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,7 +149,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:31:12 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:31:17 BDT" duration-ms="5841" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:36:34 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:36:48 BDT" duration-ms="14080" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -165,7 +165,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:31:17 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:31:24 BDT" duration-ms="6203" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:36:48 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:36:56 BDT" duration-ms="7758" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,7 +181,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:31:24 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:31:39 BDT" duration-ms="15741" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:36:56 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:37:14 BDT" duration-ms="18665" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -200,26 +200,27 @@
   (Session info: chrome=128.0.6613.85)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'QUPS-DESKTOP', ip: '192.168.0.130', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+System info: host: 'MDS', ip: '192.168.0.146', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [fd4ee871d0ebdc2a324b97338a38646f, findElement {using=xpath, value=//input[@placeholder='Please enter your Phone Number or Email']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\TALLYK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fd4ee871d0ebdc2a324b97338a38646f]]>
+Command: [88b929096db2e64a1892ea12e9442533, findElement {using=xpath, value=//input[@placeholder='Please enter your Phone Number or Email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\MDS\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88b929096db2e64a1892ea12e9442533]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Please enter your Phone Number or Email']"}
   (Session info: chrome=128.0.6613.85)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'QUPS-DESKTOP', ip: '192.168.0.130', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+System info: host: 'MDS', ip: '192.168.0.146', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [fd4ee871d0ebdc2a324b97338a38646f, findElement {using=xpath, value=//input[@placeholder='Please enter your Phone Number or Email']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\TALLYK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fd4ee871d0ebdc2a324b97338a38646f
+Command: [88b929096db2e64a1892ea12e9442533, findElement {using=xpath, value=//input[@placeholder='Please enter your Phone Number or Email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\MDS\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88b929096db2e64a1892ea12e9442533
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -230,16 +231,16 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-at HomePage.DARAZ_Locator.InputNum(DARAZ_Locator.java:37)
+at HomePage.DARAZ_Locator.InputNum(DARAZ_Locator.java:35)
 at StepDef.daraz_setp.ValueForLoginEmail(daraz_setp.java:44)
-at ✽.Click on the Email Field(file:///C:/Users/TallyKhata/Desktop/3web/Selenium-Grid-Multi-Web/src/test/java/Feature/daraz.feature:7)
+at ✽.Click on the Email Field(file:///C:/Users/MDS/Desktop/Selenium-Grid-Multi-Web/src/test/java/Feature/daraz.feature:7)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:31:39 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:31:56 BDT" duration-ms="17051" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:37:14 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:37:26 BDT" duration-ms="11403" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -258,26 +259,27 @@ at ✽.Click on the Email Field(file:///C:/Users/TallyKhata/Desktop/3web/Seleniu
   (Session info: chrome=128.0.6613.85)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'QUPS-DESKTOP', ip: '192.168.0.130', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+System info: host: 'MDS', ip: '192.168.0.146', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [03eb311312da66bd00038a7d63ae8dd5, findElement {using=xpath, value=//p[normalize-space()='Routers']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\TALLYK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8013}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 03eb311312da66bd00038a7d63ae8dd5]]>
+Command: [8c7603a731d01c44587c80d00529a3bc, findElement {using=xpath, value=//p[normalize-space()='Routers']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\MDS\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2272}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c7603a731d01c44587c80d00529a3bc]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[normalize-space()='Routers']"}
   (Session info: chrome=128.0.6613.85)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'QUPS-DESKTOP', ip: '192.168.0.130', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+System info: host: 'MDS', ip: '192.168.0.146', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [03eb311312da66bd00038a7d63ae8dd5, findElement {using=xpath, value=//p[normalize-space()='Routers']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\TALLYK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8013}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 03eb311312da66bd00038a7d63ae8dd5
+Command: [8c7603a731d01c44587c80d00529a3bc, findElement {using=xpath, value=//p[normalize-space()='Routers']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\MDS\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2272}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c7603a731d01c44587c80d00529a3bc
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -288,16 +290,16 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-at HomePage.DARAZ_Locator.CategoryView(DARAZ_Locator.java:40)
+at HomePage.DARAZ_Locator.CategoryView(DARAZ_Locator.java:38)
 at StepDef.daraz_setp.CategoryView(daraz_setp.java:73)
-at ✽.Check the Category field id showed(file:///C:/Users/TallyKhata/Desktop/3web/Selenium-Grid-Multi-Web/src/test/java/Feature/daraz.feature:15)
+at ✽.Check the Category field id showed(file:///C:/Users/MDS/Desktop/Selenium-Grid-Multi-Web/src/test/java/Feature/daraz.feature:15)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:31:56 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:32:16 BDT" duration-ms="19497" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:37:26 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:37:46 BDT" duration-ms="20035" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -316,26 +318,27 @@ at ✽.Check the Category field id showed(file:///C:/Users/TallyKhata/Desktop/3w
   (Session info: chrome=128.0.6613.85)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'QUPS-DESKTOP', ip: '192.168.0.130', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+System info: host: 'MDS', ip: '192.168.0.146', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [4e0cd1713357cce71406c6891aa76500, findElement {using=xpath, value=//input[@id='q']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\TALLYK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e0cd1713357cce71406c6891aa76500]]>
+Command: [b174523f0d4a46d2baba79ceada04297, findElement {using=xpath, value=//input[@id='q']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\MDS\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2372}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b174523f0d4a46d2baba79ceada04297]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='q']"}
   (Session info: chrome=128.0.6613.85)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'QUPS-DESKTOP', ip: '192.168.0.130', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+System info: host: 'MDS', ip: '192.168.0.146', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [4e0cd1713357cce71406c6891aa76500, findElement {using=xpath, value=//input[@id='q']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\TALLYK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e0cd1713357cce71406c6891aa76500
+Command: [b174523f0d4a46d2baba79ceada04297, findElement {using=xpath, value=//input[@id='q']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\MDS\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2372}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b174523f0d4a46d2baba79ceada04297
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -346,16 +349,16 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-at HomePage.DARAZ_Locator.SearchField(DARAZ_Locator.java:42)
+at HomePage.DARAZ_Locator.SearchField(DARAZ_Locator.java:40)
 at StepDef.daraz_setp.ChackSearchField(daraz_setp.java:98)
-at ✽.Check the Search Field on the page(file:///C:/Users/TallyKhata/Desktop/3web/Selenium-Grid-Multi-Web/src/test/java/Feature/daraz.feature:22)
+at ✽.Check the Search Field on the page(file:///C:/Users/MDS/Desktop/Selenium-Grid-Multi-Web/src/test/java/Feature/daraz.feature:22)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:32:16 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:32:36 BDT" duration-ms="19881" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:37:46 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:38:07 BDT" duration-ms="21055" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -374,26 +377,27 @@ at ✽.Check the Search Field on the page(file:///C:/Users/TallyKhata/Desktop/3w
   (Session info: chrome=128.0.6613.85)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'QUPS-DESKTOP', ip: '192.168.0.130', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+System info: host: 'MDS', ip: '192.168.0.146', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [c05a19e0445a09f3e17aaec6fe0e3c7b, findElement {using=xpath, value=//a[normalize-space()='Sign Up']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\TALLYK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8179}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c05a19e0445a09f3e17aaec6fe0e3c7b]]>
+Command: [ad1692009b86d4897400ced26d68ce0c, findElement {using=xpath, value=//a[normalize-space()='Sign Up']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\MDS\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad1692009b86d4897400ced26d68ce0c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Sign Up']"}
   (Session info: chrome=128.0.6613.85)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'QUPS-DESKTOP', ip: '192.168.0.130', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+System info: host: 'MDS', ip: '192.168.0.146', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [c05a19e0445a09f3e17aaec6fe0e3c7b, findElement {using=xpath, value=//a[normalize-space()='Sign Up']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\TALLYK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8179}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c05a19e0445a09f3e17aaec6fe0e3c7b
+Command: [ad1692009b86d4897400ced26d68ce0c, findElement {using=xpath, value=//a[normalize-space()='Sign Up']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\MDS\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad1692009b86d4897400ced26d68ce0c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -404,20 +408,20 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-at HomePage.DARAZ_Locator.SingUpButton(DARAZ_Locator.java:44)
+at HomePage.DARAZ_Locator.SingUpButton(DARAZ_Locator.java:42)
 at StepDef.daraz_setp.checkSingUpButtonIsAvailable(daraz_setp.java:138)
-at ✽.Check the Sing Up button(file:///C:/Users/TallyKhata/Desktop/3web/Selenium-Grid-Multi-Web/src/test/java/Feature/daraz.feature:31)
+at ✽.Check the Sing Up button(file:///C:/Users/MDS/Desktop/Selenium-Grid-Multi-Web/src/test/java/Feature/daraz.feature:31)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:32:36 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T10:32:44 BDT" duration-ms="8479" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:38:07 BDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:38:18 BDT" duration-ms="10892" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify User and Can login"]]>
+                <![CDATA["Verify logo work properly"]]>
               </value>
             </param>
             <param index="1">
@@ -426,52 +430,10 @@ at ✽.Check the Sing Up button(file:///C:/Users/TallyKhata/Desktop/3web/Seleniu
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//textarea[@id='APjFqb']"}
-  (Session info: chrome=128.0.6613.85)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'QUPS-DESKTOP', ip: '192.168.0.130', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [cf155441cbd2a6e30f4d5b30d3cd17b6, findElement {using=xpath, value=//textarea[@id='APjFqb']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\TALLYK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cf155441cbd2a6e30f4d5b30d3cd17b6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//textarea[@id='APjFqb']"}
-  (Session info: chrome=128.0.6613.85)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'QUPS-DESKTOP', ip: '192.168.0.130', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [cf155441cbd2a6e30f4d5b30d3cd17b6, findElement {using=xpath, value=//textarea[@id='APjFqb']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\TALLYK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cf155441cbd2a6e30f4d5b30d3cd17b6
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-at HomePage.GOOGLE_Locator.textbox(GOOGLE_Locator.java:22)
-at StepDef.google_step.checkTheLoginButtonGo(google_step.java:31)
-at ✽.Check the textarea button(file:///C:/Users/TallyKhata/Desktop/3web/Selenium-Grid-Multi-Web/src/test/java/Feature/google.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@17fc391b]" started-at="2024-08-29T10:32:44 BDT" name="tearDownClass" finished-at="2024-08-29T10:32:44 BDT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@26b3fd41]" started-at="2024-08-29T20:38:18 BDT" name="tearDownClass" finished-at="2024-08-29T20:38:18 BDT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

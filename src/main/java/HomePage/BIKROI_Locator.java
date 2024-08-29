@@ -75,55 +75,41 @@ public class BIKROI_Locator {
         return driver.findElement(ProductDetails);
     }
     public WebElement Search(){
-
         return driver.findElement(Search);
-
     }
     public WebElement MobilesSearch(){
-
         return driver.findElement(MobilesSearch);
-
     }
     public WebElement Previous(){
-
         return driver.findElement(Previous);
 
     }
     public WebElement Next(){
-
         return driver.findElement(Next);
-
     }
 
     public WebElement all_ads (){
-
         return driver.findElement(all_ads);
     }
 
     public WebElement language(){
         return driver.findElement(language);
-
     }
 
     public WebElement chat(){
         return driver.findElement(chat);
-
     }
 
     public WebElement login(){
-
         return driver.findElement(login);
     }
 
     public WebElement post_ad(){
-
         return driver.findElement(post_ad);
     }
 
     public WebElement location(){
-
         return driver.findElement(location);
-
     }
 
     public WebElement search(){

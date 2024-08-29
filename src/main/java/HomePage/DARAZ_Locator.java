@@ -27,11 +27,9 @@ public class DARAZ_Locator {
     By SingUpPassword = By.xpath("//input[@placeholder='Minimum 6 characters with a number and a letter']");
     By SingUpCodeSend = By.xpath("//button[@class='mod-sendcode-btn']");
 
-
     public DARAZ_Locator(WebDriver driver) {
         this.driver = driver;
     }
-
 
     public WebElement LoginButton(){return driver.findElement(LoginButton);}
     public WebElement InputNum(){return driver.findElement(Input_number);}
